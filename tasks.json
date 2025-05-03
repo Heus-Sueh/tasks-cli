@@ -1,0 +1,23 @@
+[
+    {
+        "id": 1,
+        "description": "buy food",
+        "status": "done",
+        "createdAt": "13 Apr 2025 - 14:49",
+        "updatedAt": "13 Apr 2025 - 14:50"
+    },
+    {
+        "id": 2,
+        "description": "buy cars",
+        "status": "todo",
+        "createdAt": "13 Apr 2025 - 14:49",
+        "updatedAt": "13 Apr 2025 - 14:49"
+    },
+    {
+        "id": 3,
+        "description": "buy house",
+        "status": "todo",
+        "createdAt": "13 Apr 2025 - 14:49",
+        "updatedAt": "13 Apr 2025 - 14:49"
+    }
+]

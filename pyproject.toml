@@ -1,0 +1,21 @@
+[project]
+name = "tasks-cli"
+version = "0.1.0"
+description = "Project based learning"
+readme = "README.md"
+requires-python = ">=3.13"
+dependencies = [
+    "click>=8.1.8",
+    "pydantic>=2.11.3",
+    "pyside6>=6.9.0",
+    "toml>=0.10.2",
+]
+
+[dependency-groups]
+dev = [
+    "ruff>=0.11.6",
+]
+
+[tool.ruff.lint]
+select = ["ANN", "COM", "C4", "EM", "FIX", "ISC", "ICN", "E", "PIE", "F", "RET", "ARG", "PTH", "B", "UP", "SIM", "I", "FLY", "C90", "N", "PERF", "FURB", "RUF"]
+ignore = ["F401"]
